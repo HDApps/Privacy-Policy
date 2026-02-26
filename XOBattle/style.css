@@ -1,0 +1,182 @@
+/* ===========================
+   Privacy Policy – Clean Document Style
+   =========================== */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.75;
+    color: #1a1a2e;
+    background: #f5f5f7;
+}
+
+/* ── Page wrapper ─────────────────────────────────── */
+
+.page {
+    max-width: 760px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* ── Header ───────────────────────────────────────── */
+
+.page-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+    color: #fff;
+    padding: 40px 48px 36px;
+    border-bottom: 3px solid #e94560;
+}
+
+.page-header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    margin-bottom: 6px;
+}
+
+.page-header .app-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.page-header .dates {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* ── Main content ─────────────────────────────────── */
+
+.page-content {
+    padding: 40px 48px;
+}
+
+/* ── Sections ─────────────────────────────────────── */
+
+section {
+    margin-bottom: 36px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+section h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0f3460;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-left: 3px solid #e94560;
+    padding-left: 10px;
+}
+
+section p {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+section p:last-child {
+    margin-bottom: 0;
+}
+
+section ul {
+    list-style: disc;
+    padding-left: 22px;
+    color: #444;
+    margin: 8px 0 10px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+section a {
+    color: #0f3460;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(15, 52, 96, 0.3);
+    transition: border-color 0.2s;
+}
+
+section a:hover {
+    border-color: #e94560;
+    color: #e94560;
+}
+
+/* ── Consent block ────────────────────────────────── */
+
+section.consent {
+    background: #f0f4ff;
+    border-radius: 8px;
+    padding: 18px 22px;
+    border-left: 4px solid #0f3460;
+    border-bottom: none;
+    margin-top: 36px;
+}
+
+section.consent p {
+    font-size: 13.5px;
+    color: #333;
+    margin: 0;
+}
+
+/* ── Footer ───────────────────────────────────────── */
+
+.page-footer {
+    background: #f9f9fb;
+    border-top: 1px solid #e8e8ed;
+    padding: 20px 48px;
+    text-align: center;
+}
+
+.page-footer p {
+    font-size: 12px;
+    color: #999;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+
+@media (max-width: 600px) {
+    .page {
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .page-header,
+    .page-content,
+    .page-footer {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .page-header {
+        padding-top: 28px;
+        padding-bottom: 24px;
+    }
+
+    .page-content {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+    .page-header h1 {
+        font-size: 22px;
+    }
+}
