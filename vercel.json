@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/XOBattle", "destination": "/XOBattle/", "permanent": true }
+    { "source": "/xo-battle", "destination": "/xo-battle/", "permanent": true }
   ]
 }
